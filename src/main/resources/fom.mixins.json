@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.foxmcloud.fom.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "FabricOfMagicMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

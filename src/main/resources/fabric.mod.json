@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "fom",
+  "version": "${version}",
+
+  "name": "Fabric of Magic",
+  "description": "Ever wanted D&D style magic in Minecraft?  Well, this mod is for you!",
+  "authors": [
+    "FoxMcloud5655"
+  ],
+  "contact": {
+    "homepage": "https://foxmcloud.net/",
+    "sources": "https://github.com/FoxMcloud5655/FabricOfMagic"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/fom/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.foxmcloud.fom.FabricOfMagic"
+    ]
+  },
+  "mixins": [
+    "fom.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+//  },
+//  "suggests": {
+//    "flamingo": "*"
+  }
+}
