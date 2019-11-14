@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.foxmcloud.fom.FabricOfMagic"
+    ],
+    "client": [
+      "net.foxmcloud.fom.FabricOfMagicClient"
     ]
   },
   "mixins": [

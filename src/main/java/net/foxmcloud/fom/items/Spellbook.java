@@ -23,7 +23,8 @@ public class Spellbook extends Item {
 	@Override
 	public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand)
 	{
-		playerEntity.playSound(SoundEvents.ITEM_BOOK_PAGE_TURN, 1.0F, 1.0F + (rand.nextFloat() / 2));
+		playerEntity.playSound(SoundEvents.ITEM_BOOK_PAGE_TURN, 1.0F, 1.25F + (rand.nextFloat() / 2));
+		playerEntity.openEditBookScreen(playerEntity.getStackInHand(hand), hand);
 		return new TypedActionResult<>(ActionResult.SUCCESS, playerEntity.getStackInHand(hand));
 	}
 }
